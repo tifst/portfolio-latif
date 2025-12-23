@@ -192,7 +192,7 @@ export default function Contact() {
                 </a>
                 <a className="rounded-lg border border-white/10 p-2 hover:border-green-400 hover:scale-110 transition"
                   href="https://tifst.itch.io/" aria-label="Find us on Itch-IO" target="_blank"rel="noopener">
-                  <img class="h-10 w-10" src="src/assets/itch-io.svg" color='green' alt="Itch-IO Logo"/>
+                  <img class="h-10 w-10" src="itch-io.svg" color='green' alt="Itch-IO Logo"/>
                 </a>
                 <a className="rounded-lg border border-white/10 p-2 hover:border-green-400 hover:scale-110 transition"
                   href="https://github.com/malatif3" aria-label="Find us on GitHub" target="_blank"rel="noopener">

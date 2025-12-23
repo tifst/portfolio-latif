@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Growth Tree",
     category: "Game",
-    image: "/projects/growth-tree.jpg",
+    image: "growth-tree.jpg",
     description:
       "Environmental simulation game where players grow trees, harvest fruits, manage pollution, and complete quests.",
     tech: ["Unity", "C#", "Simulation, Environment, Quest"],
@@ -14,7 +14,7 @@ export const projects = [
     id: 2,
     title: "ChemVerse",
     category: "Game",
-    image: "/projects/chemverse.jpg",
+    image: "chemverse.jpg",
     description:
       "Educational chemistry game designed to visualize chemicals elements, reactions, and experiments through interactive gameplay.",
     tech: ["Unity", "C#", "Education"],
@@ -25,7 +25,7 @@ export const projects = [
     id: 3,
     title: "FaniLaundry Website",
     category: "Website",
-    image: "/src/assets/p.png",
+    image: "fanilaundry.png",
     description:
       "Laundry service website featuring service listings, pricing, and contact integration.",
     tech: ["WordPress", "Elementor", "MySQL"],

@@ -37,7 +37,7 @@ export default function Hero() {
               </a>
               <a className="rounded-lg border border-white/10 p-2 hover:border-green-400 hover:scale-110 transition"
                 href="https://tifst.itch.io/" aria-label="Find us on Itch-IO" target="_blank"rel="noopener">
-                <img class="h-8 w-8" src="src/assets/itch-io.svg" color='green' alt="Itch-IO Logo"/>
+                <img class="h-8 w-8" src="itch-io.svg" color='green' alt="Itch-IO Logo"/>
               </a>
               <a className="rounded-lg border border-white/10 p-2 hover:border-green-400 hover:scale-110 transition"
                 href="https://github.com/malatif3" aria-label="Find us on GitHub" target="_blank"rel="noopener">
@@ -83,7 +83,7 @@ export default function Hero() {
         <div className="reveal relative order-1 md:order-2 flex justify-center">
           <div className="group w-80 h-80 md:w-80 md:h-100 rounded-full overflow-hidden border-3 border-white bg-black">
             <img
-              src="src/assets/profilepicture.jpg"
+              src="profilepicture.jpg"
               alt="Profile"
               className="
                 w-full h-full object-cover
