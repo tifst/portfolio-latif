@@ -88,7 +88,7 @@ export default function Hero() {
               className="
                 w-full h-full object-cover
                 transition-transform duration-500 ease-out
-                md:group-hover:scale-120 md:group-hover:translate-y-10 translate-y-10
+                md:group-hover:scale-120 md:group-hover:translate-y-10 object-[center_20%]
               "
             />
           </div>
