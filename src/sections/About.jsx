@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative pt-20 bg-black text-white overflow-hidden"
+      className="relative pt-20 bg-neutral-950 text-white overflow-hidden"
     >
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
 

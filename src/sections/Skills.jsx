@@ -2,7 +2,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative pt-20 bg-black text-white"
+      className="relative pt-20 text-white"
     >
       <div className="max-w-6xl mx-auto px-6">
 
@@ -24,9 +24,10 @@ export default function Skills() {
             </h3>
             <div className="flex flex-wrap gap-3">
               {["Unity 3D",
-                "C# Programming",
+                "C#",
                 "Gameplay Systems",
                 "UI System",
+                "NavMmesh AI",
                 "Save & Load System"].map(
                 (skill) => (
                   <span
@@ -51,7 +52,7 @@ export default function Skills() {
                 "JavaScript",
                 "React",
                 "Tailwind CSS",
-                "Vite"].map(
+                "Node.js"].map(
                 (skill) => (
                   <span
                     key={skill}

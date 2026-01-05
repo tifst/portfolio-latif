@@ -13,7 +13,7 @@ export default function Projects() {
       : projects.filter(p => p.category === active);
 
   return (
-    <section id="projects" className="pt-20 bg-black text-white">
+    <section id="projects" className="pt-20 text-white">
 
       <div className="max-w-6xl mx-auto px-6">
 
