@@ -45,13 +45,15 @@ export default function Skills() {
           {/* WEB DEV */}
           <div className="flex-1 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur hover:scale-105 transition hover:border-green-500">
             <h3 className="text-lg font-semibold mb-4 text-white">
-              🌐 Web Development
+              🌐 Tools and Web Development
             </h3>
             <div className="flex flex-wrap gap-3">
-              {["WordPress",
+              {["Git",
+                "Python",
+                "Java",
+                "WordPress",
                 "JavaScript",
                 "React",
-                "Tailwind CSS",
                 "Node.js"].map(
                 (skill) => (
                   <span
