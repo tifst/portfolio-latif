@@ -35,7 +35,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-6 py-4">
         <div className="flex items-center justify-between">
           {/* LOGO */}
-          <a href="#home" className="text-3xl font-bold text-green-400">
+          <a href="#home" className="text-3xl font-bold text-green-400 hover:text-white transition">
             &lt;/&gt; Tif
           </a>
 
@@ -74,7 +74,7 @@ export default function Navbar() {
           <a
             href="#contact"
             className="rounded-full px-5 py-2 text-lg font-medium
-                       bg-green-500 text-black hover:bg-white transition"
+                       bg-green-500 text-black hover:bg-white active:bg-white transition"
           >
             Let's Connect
           </a>

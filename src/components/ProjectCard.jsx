@@ -36,7 +36,7 @@ export default function ProjectCard({ project }) {
         </div>
 
         {/* ACTIONS */}
-        <div className="mt-4 flex gap-3 text-sm">
+        <div className="mt-4 flex gap-3 text-sm [&>a]:active:bg-white [&>a]:active:scale-105">
           {project.demo && (
             <a
               href={project.demo}

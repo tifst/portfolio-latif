@@ -117,7 +117,7 @@ export default function Contact() {
                 type="submit"
                 disabled={status === "sending" || cooldown}
                 className="w-full rounded-lg bg-linear-to-r bg-green-600
-                           py-3 text-sm font-medium text-black hover:bg-white disabled:bg-gray-400 transition"
+                           py-3 text-sm font-medium text-black hover:bg-white active:bg-white disabled:bg-gray-400 transition"
               >
                 {cooldown ? `Wait ${secondsLeft}s`: status === "sending" ? "Sending..." : "Send Message →"}
               </button>
@@ -151,7 +151,7 @@ export default function Contact() {
             {/* EMAIL */}
             <a href="mailto:abdlatifst@gmail.com"
               className="reveal flex items-center gap-4 rounded-xl border border-white/10
-                        bg-white/5 p-4 backdrop-blur hover:border-green-500 transition">
+                        bg-white/5 p-4 backdrop-blur hover:border-green-500 active:border-green-400 transition">
               <div className="h-10 w-10 flex items-center justify-center rounded-lg
                               bg-green-500/20 text-green-400">
                 @
@@ -166,7 +166,7 @@ export default function Contact() {
             <a href="https://maps.google.com/?q=Semarang, Indonesia"
               target="_blank" rel="noopener noreferrer"
               className="reveal flex items-center gap-4 rounded-xl border border-white/10
-                        bg-white/5 p-4 backdrop-blur hover:border-green-500 transition">
+                        bg-white/5 p-4 backdrop-blur hover:border-green-500 active:border-green-500 transition">
               <div className="h-10 w-10 flex items-center justify-center rounded-lg
                               bg-green-500/20 text-green-400">
                 📍
@@ -180,7 +180,7 @@ export default function Contact() {
             {/* SOCIAL */}
             <div>
               <p className="reveal text-sm text-gray-400 mb-3">Connect with me</p>
-              <div className="reveal flex gap-4">
+              <div className="reveal flex gap-4 [&>a]:active:border-green-400 [&>a]:active:scale-110">
                 <a className="rounded-lg border border-white/10 p-3 hover:border-green-400 hover:scale-110 transition"
                   href="https://www.linkedin.com/in/muhammad-abdul-latif-b5b0a3202" aria-label="Find us on LinkedIn"
                   target="_blank" rel="noopener">

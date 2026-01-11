@@ -22,8 +22,8 @@ export default function Hero() {
           </p>
 
           <div className="mt-8">
-            <div className="flex gap-4">
-              <a className="rounded-lg border border-white/10 p-3 hover:border-green-400 active:border-green-400 hover:scale-110 transition"
+            <div className="flex gap-4 [&>a]:active:border-green-400 [&>a]:active:scale-110">
+              <a className="rounded-lg border border-white/10 p-3 hover:border-green-400 hover:scale-110 transition"
                 href="https://www.linkedin.com/in/muhammad-abdul-latif-b5b0a3202" aria-label="Find us on LinkedIn"
                 target="_blank" rel="noopener">
                 <svg class="h-6 w-6 text-white" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +57,7 @@ export default function Hero() {
               </a>
             </div>
 
-            <div className="mt-8 flex gap-4">
+            <div className="mt-8 flex gap-4 [&>a]:active:bg-white [&>a]:active:scale-105">
               <a
                 href="#projects"
                 className="px-6 py-3 rounded-lg bg-green-500 text-black font-semibold hover:bg-white hover:scale-105 transition"
