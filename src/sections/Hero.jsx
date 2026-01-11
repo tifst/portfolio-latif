@@ -57,7 +57,7 @@ export default function Hero() {
               </a>
             </div>
 
-            <div className="mt-8 flex gap-4 [&>a]:active:bg-white [&>a]:active:scale-105">
+            <div className="mt-8 flex gap-4 [&>a]:active:bg-white [&>a]:active:scale-105 transition">
               <a
                 href="#projects"
                 className="px-6 py-3 rounded-lg bg-green-500 text-black font-semibold hover:bg-white hover:scale-105 transition"

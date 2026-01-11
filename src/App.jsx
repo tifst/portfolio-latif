@@ -27,10 +27,10 @@ function App() {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-neutral-950 text-white overflow-hidden">
+    <div className="relative min-h-screen bg-neutral-950 text-white">
 
       {/* ================= GLOBAL BACKGROUND ================= */}
-      <div className="pointer-events-none absolute inset-0 z-0">
+      <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
 
         {/* Glow kiri atas */}
         <div className="
